@@ -50,7 +50,6 @@ type (
 		Index        int     `json:"index"`
 	}
 )
-// OPENAPI_TOKEN=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
 func main() {
 	fmt.Printf("\x1b[%dm%s\x1b[0m\n\n", 33, "Hi, I'm Trixie-terminal. How can I help you?")
 	err := godotenv.Load(".env")
